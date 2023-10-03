@@ -1,0 +1,13 @@
+{% extends "xxxLayout/xxxLayout.html" %}
+{% load static %}
+
+
+{% block title %}
+    hello
+{% endblock %}
+    
+
+{% block content %}
+    <img src="{% static 'members\x1.jpg' %}" />
+    <i>hello {% lorem 5 %}</i>
+{% endblock %}
